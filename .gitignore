@@ -1,0 +1,24 @@
+# Service account credentials
+/service-account/
+gcp-credentials.json
+# Terraform state files
+*.tfstate
+*.tfstate.backup
+*.terraform.*
+# Terraform plugin directory
+.terraform/
+
+# Kubernetes config files
+/k8s/
+
+# Build script
+build.sh
+
+# MacOS system files
+.DS_Store
+
+# Editor history
+.history
+
+
+*.tfvars
